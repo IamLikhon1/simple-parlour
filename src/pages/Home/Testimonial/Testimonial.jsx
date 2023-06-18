@@ -12,7 +12,7 @@ const Testimonial = () => {
         })
     },[])
     return (
-        <div>
+        <div id="testimonial">
             <h2 className="text-4xl my-16 text-center font-semibold">Testimonial</h2>
 
             <Marquee className="my-20  ">
