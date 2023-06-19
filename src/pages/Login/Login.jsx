@@ -1,13 +1,14 @@
 import Lottie from "lottie-react";
 import loginAnimation from '../../assets/login.json'
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useRef } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import { toast } from "react-hot-toast";
 import SocialLogin from "../../component/SocailLogin/SocialLogin";
 
 const Login = () => {
-  const {signInUsers}=useContext(AuthContext);
+  const {signInUsers,resSetPassword}=useContext(AuthContext);
+  const emailRef=useRef()
   const location=useLocation();
   const navigate=useNavigate()
   const from=location.state?.from?.pathname||'/'
@@ -30,6 +31,21 @@ const Login = () => {
         toast.error(error.message)
       })
 
+    };
+
+    const handleReSet=()=>{
+      const passReSet=emailRef.current.value;
+      if(!passReSet){
+        toast.error('Set your email on email field')
+        return
+      }
+      resSetPassword(passReSet)
+      .then(()=>{
+        toast.success('Please Check Your Email')
+      })
+      .catch(error=>{
+        toast.error(error.message)
+      })
     }
 
     return (
@@ -60,7 +76,7 @@ const Login = () => {
           <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <input type="email" name="email" placeholder="email" className="input input-bordered" />
+          <input type="email" ref={emailRef} name="email" placeholder="email" className="input input-bordered" />
         </div>
         <div className="form-control">
           <label className="label">
@@ -68,7 +84,7 @@ const Login = () => {
           </label>
           <input type="password" name="password" placeholder="password" className="input input-bordered" />
           <label className="label">
-            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+            <a href="#" onClick={handleReSet} className="label-text-alt link link-hover">Forgot password?</a>
           </label>
         </div>
         <div className="form-control mt-6">

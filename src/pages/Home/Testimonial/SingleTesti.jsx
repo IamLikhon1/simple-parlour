@@ -1,6 +1,8 @@
 import {  FaStar } from 'react-icons/fa';
 const SingleTesti = ({single}) => {
-    const{img,name,post,des}=single
+    const{img,name,post,des}=single;
+
+    
     return (
         <div>
             <div className="card w-96 p-5 mx-5 bg-base-100 shadow-xl">
