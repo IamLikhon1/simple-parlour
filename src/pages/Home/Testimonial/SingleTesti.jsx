@@ -1,4 +1,4 @@
-
+import {  FaStar } from 'react-icons/fa';
 const SingleTesti = ({single}) => {
     const{img,name,post,des}=single
     return (
@@ -12,6 +12,13 @@ const SingleTesti = ({single}) => {
  </div>
   </div>
     <p className="my-10">{des}</p>
+    <div className='flex text-yellow-400 text-xl'>
+        <FaStar className='mx-1'></FaStar>
+        <FaStar className='mx-1'></FaStar>
+        <FaStar className='mx-1'></FaStar>
+        <FaStar className='mx-1'></FaStar>
+        <FaStar className='mx-1'></FaStar>
+    </div>
 </div>
             
         </div>

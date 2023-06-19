@@ -1,18 +1,22 @@
-import { useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import SingleServices from "./SingleServices";
-// import Lottie from "lottie-react";
-// import login from '../../../assets/login.json'
+import { toast } from "react-hot-toast";
+
 
 const Services = () => {
     const [services,setServices]=useState([]);
+   
     useEffect(()=>{
         fetch('http://localhost:5000/service')
         .then(res=>res.json())
         .then(data=>{
             setServices(data)
         })
-    },[])
+    },[]);
+    const handleExplore=()=>{
+        toast.success('More Services Coming Soon...')
 
+    }
 
     return (
         <div className="overflow-x-hidden" id="services" data-aos="fade-up"
@@ -25,7 +29,7 @@ const Services = () => {
                 }
               
              <div className="md:ml-96 w-full">
-             <button className="btn   bg-[#F73E7B] hover:bg-[#F73E7B] text-white  my-5 ">Explore More</button>
+             <button onClick={handleExplore} className="btn   bg-[#F73E7B] hover:bg-[#F73E7B] text-white  my-5 ">Explore More</button>
              {/* <Lottie animationData={login} loop={true} />; */}
              </div>
               

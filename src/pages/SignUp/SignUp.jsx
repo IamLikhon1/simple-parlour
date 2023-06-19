@@ -4,6 +4,7 @@ import create from '../../assets/create.json'
 import { useContext } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import { toast } from "react-hot-toast";
+import SocialLogin from "../../component/SocailLogin/SocialLogin";
 
 const SignUp = () => {
   const{createUsers,updateUserProfile}=useContext(AuthContext)
@@ -88,9 +89,10 @@ const SignUp = () => {
         <div className="form-control mt-6">
           <button type="submit" className="btn bg-[#F63E7B] hover:bg-[#F63E7B] text-white">Create Account</button>
 
-          <p className="my-2">{"Already Have Account?"} <span className="font-bold text-[#F63E7B] underline"><Link to='/login'>Go to Login</Link> </span> </p>
         </div>
      </form>
+     <SocialLogin></SocialLogin>
+          <p className="my-2">{"Already Have Account?"} <span className="font-bold text-[#F63E7B] underline"><Link to='/login'>Go to Login</Link> </span> </p>
       </div>
     </div>
   </div>

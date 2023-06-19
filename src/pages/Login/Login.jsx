@@ -4,6 +4,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import { toast } from "react-hot-toast";
+import SocialLogin from "../../component/SocailLogin/SocialLogin";
 
 const Login = () => {
   const {signInUsers}=useContext(AuthContext);
@@ -73,9 +74,10 @@ const Login = () => {
         <div className="form-control mt-6">
           <button type="submit" className="btn bg-[#F63E7B] hover:bg-[#F63E7B] text-white">Login</button>
 
-          <p className="my-2">{"Don't Have Account?"} <span className="font-bold text-[#F63E7B] underline"><Link to='/signup'>create account</Link> </span> </p>
         </div>
         </form>
+        <SocialLogin></SocialLogin>
+          <p className="my-2">{"Don't Have Account?"} <span className="font-bold text-[#F63E7B] underline"><Link to='/signup'>create account</Link> </span> </p>
         
       </div>
     </div>

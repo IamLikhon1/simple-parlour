@@ -1,3 +1,5 @@
+import {  FaFacebook, FaGithub, FaInstagram, FaLinkedin,  FaTwitter, FaYoutube } from 'react-icons/fa';
+
 const Footer = () => {
     return (
         <div className="">
@@ -27,6 +29,15 @@ const Footer = () => {
   </div> 
   <div>
     <span className="footer-title">About us</span> 
+    <span className='flex text-2xl my-2 cursor-pointer'>
+      <FaFacebook className='mx-1'></FaFacebook>
+      <FaInstagram className='mx-1'></FaInstagram>
+      <FaTwitter className='mx-1'></FaTwitter>
+      <FaYoutube className='mx-1'></FaYoutube>
+      <FaLinkedin className='mx-1'></FaLinkedin>
+      <FaGithub className='mx-1'></FaGithub>
+
+    </span>
    <p>Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Purus commodo ipsum
 duis laoreet maecenas. Feugiat </p>
