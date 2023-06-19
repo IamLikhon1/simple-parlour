@@ -5,8 +5,8 @@ const NavBar = () => {
     const navItems=<>
        <Link to='/'> <li className="mx-2 text-lg font-semibold font-[Poppins]">Home</li></Link>
         <a href="#services" className="mx-2 text-lg font-semibold font-[Poppins]">Services</a>
-        <a href="#contact" className="mx-2 text-lg font-semibold font-[Poppins]">Contact Us</a>
         <a href="#testimonial" className="mx-2 text-lg font-semibold font-[Poppins]">Testimonial</a>
+        <a href="#contact" className="mx-2 text-lg font-semibold font-[Poppins]">Contact Us</a>
         <li className="mx-2 text-lg font-semibold font-[Poppins]">Dashboard</li>
 
     </>

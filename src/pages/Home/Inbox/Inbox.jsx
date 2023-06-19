@@ -1,7 +1,9 @@
 
 const Inbox = () => {
     return (
-        <div id="contact" className="px-20 py-20 bg-[#fde4f2]">
+        <div id="contact" className="px-20 overflow-x-hidden py-20 bg-[#fde4f2]"data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <h2 className="text-4xl text-center my-10 font-semibold font-[Poppins]">Let us handle your <br /> 
 project, professionally.</h2>
 
