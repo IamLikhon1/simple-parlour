@@ -35,7 +35,7 @@ const NavBar = () => {
         <a href="#services" className="mx-2 text-lg font-semibold font-[Poppins]">Services</a>
         <a href="#testimonial" className="mx-2 text-lg font-semibold font-[Poppins]">Testimonial</a>
         <a href="#contact" className="mx-2 text-lg font-semibold font-[Poppins]">Contact Us</a>
-       { user?<><li className="mx-2 text-lg font-semibold font-[Poppins]">Dashboard</li> <p className="md:ml-5 "> <img className="w-10 h-10 rounded-full" src={user?.photoURL} alt="" /></p></>:<></>}
+       { user?<> <p className="md:ml-5 "> <img className="w-10 h-10 rounded-full" src={user?.photoURL} alt="" /></p></>:<></>}
 
     </>
         

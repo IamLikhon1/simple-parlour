@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const Testimonial = () => {
     const [items,setItems]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/testimonial')
+        fetch('https://parlaur-sever.vercel.app/testimonial')
         .then(res=>res.json())
         .then(data=>{
             setItems(data)
