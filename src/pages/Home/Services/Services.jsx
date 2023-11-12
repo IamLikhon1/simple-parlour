@@ -28,12 +28,12 @@ const Services = () => {
                     services.map(items=><SingleServices key={items.id}items={items}></SingleServices>)
                 }
               
-             <div className="md:ml-96 w-full">
+            </div>
+             <div className="text-center mb-5">
              <button onClick={handleExplore} className="btn   bg-[#F73E7B] hover:bg-[#F73E7B] text-white  my-5 ">Explore More</button>
              {/* <Lottie animationData={login} loop={true} />; */}
              </div>
               
-            </div>
             
         </div>
     );

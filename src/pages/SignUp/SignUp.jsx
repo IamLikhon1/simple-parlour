@@ -39,10 +39,10 @@ const SignUp = () => {
   }
     return (
         <div>
-            <div className="my-16 md:px-10">
+            <div className="my-16 md:px-20 md:py-">
             <div className="grid md:grid-cols-2 items-center">
                {/* animation */}
-               <div className="w-full">
+               <div className="w-full h-full">
              <Lottie animationData={create} loop={true} />
 
                     
