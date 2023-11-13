@@ -9,11 +9,12 @@ const WelcomePage = () => {
         <div className="mt-16 mx-5 md:mx-0">
             {/* title */}
             <div className="text-center">
-                <h2 className="text-4xl font-[Poppins] font-semibold">WELCOME TO</h2>
-                <h4 className="text-lg mt-3 mb-7">MASSAGE THERAPY CENTER</h4>
+                <h2 className="text-4xl  font-semibold">WELCOME TO</h2>
+                <h4 className="text-xl mt-2  text-[#f9a392]">MASSAGE THERAPHY CENTER</h4>
+               <span className='flex justify-center mb-7 mt-2'><hr className='border-gray-800 w-28' /></span>
                 <div className="w-full">
-                    <p className="md:w-1/2 mx-auto">
-                        In order to achieve results from the fear layer, or time no flattery. A great performance or my homework takes over. In order to achieve results from the fear layer, or time no flattery. A great performance or my homework takes over.</p>
+                    <p className="md:w-1/2 mx-auto mb-3">
+                        Ut consequat velit a metus accumsan, vel tempor nulla blandit. Integer euismod magna vel mi congue suscipit. Ut consequat velit a metus accumsan, vel tempor nulla blandit. Integer euismod magna vel mi congue suscipit.</p>
                 </div>
             </div>
             {/* title */}
@@ -37,7 +38,7 @@ const WelcomePage = () => {
                     <div className='flex gap-5 '>
                         {/* img */}
                         <div>
-                            <img src={RealxImg} alt="" />
+                            <img className='w-16' src={RealxImg} alt="" />
 
                         </div>
                         <div>
@@ -49,7 +50,7 @@ const WelcomePage = () => {
                     <div className='flex gap-5 my-8'>
                         {/* img */}
                         <div>
-                            <img src={BodyImg} alt="" />
+                            <img  className='w-20' src={BodyImg} alt="" />
 
                         </div>
                         <div>
@@ -61,7 +62,7 @@ const WelcomePage = () => {
                     <div className='flex gap-5 my-8'>
                         {/* img */}
                         <div>
-                            <img src={MedinationImg} alt="" />
+                            <img className='w-20' src={MedinationImg} alt="" />
 
                         </div>
                         <div>
@@ -73,7 +74,7 @@ const WelcomePage = () => {
                     <div className='flex gap-5 my-8'>
                         {/* img */}
                         <div>
-                            <img src={umbrella} alt="" />
+                            <img className='w-20' src={umbrella} alt="" />
 
                         </div>
                         <div>

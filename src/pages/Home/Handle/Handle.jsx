@@ -13,18 +13,18 @@ const Handle = () => {
                 <div data-aos="fade-left"
                     data-aos-offset="500"
                     data-aos-easing="ease-in-sine">
-                    <h2 className="text-4xl font-semibold font-[Poppins]">Let us handle your <br /> screen <span className="text-[#F63E7B]">Professionally</span>.</h2>
+                    <h2 className="text-4xl font-semibold  ">Let us handle your <br /> screen <span className="text-[#F63E7B]">Professionally</span>.</h2>
                     <p className="my-7">With well written codes, we build amazing apps for all platforms, mobile and web apps in general ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum.</p>
 
                     <div className="flex gap-5">
                         <div>
-                            <h2 className="text-4xl text-[#F63E7B] font-bold font-[Poppins] ">500 +</h2>
-                            <p className="text-xl my-5 font-[Poppins]">Happy Customer</p>
+                            <h2 className="text-4xl text-[#F63E7B] font-bold   ">500 +</h2>
+                            <p className="text-xl my-5  ">Happy Customer</p>
                         </div>
 
                         <div>
-                            <h2 className="text-4xl text-[#F63E7B] font-bold font-[Poppins] ">16 +</h2>
-                            <p className="text-xl my-5 font-[Poppins]">Total Service</p>
+                            <h2 className="text-4xl text-[#F63E7B] font-bold   ">16 +</h2>
+                            <p className="text-xl my-5  ">Total Service</p>
                         </div>
 
                     </div>

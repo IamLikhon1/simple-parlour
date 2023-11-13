@@ -21,7 +21,7 @@ const Services = () => {
     return (
         <div className="overflow-x-hidden" id="services" data-aos="fade-up"
         data-aos-duration="1000">
-            <h2 className="text-4xl font-[Poppins] font-semibold text-center my-20">Our Awesome <span className="text-[#F63E7B] ">Services</span></h2>
+            <h2 className="text-4xl   font-semibold text-center my-20">Our Awesome <span className="text-[#F63E7B] ">Services</span></h2>
 
             <div className="grid md:grid-cols-3 gap-5 mx-16 my-12 ">
                 {

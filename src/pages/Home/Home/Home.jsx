@@ -5,6 +5,7 @@ import Inbox from "../Inbox/Inbox";
 
 import Services from "../Services/Services";
 import Testimonial from "../Testimonial/Testimonial";
+import FunFact from "./FunFact/FunFact";
 import Impressed from "./Impressed/Impressed";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
         <Handle></Handle>
         <Testimonial></Testimonial>
         <Inbox></Inbox>
+        <FunFact/>
             
         </>
     );

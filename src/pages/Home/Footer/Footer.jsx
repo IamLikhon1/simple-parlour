@@ -5,7 +5,7 @@ const Footer = () => {
   
     return (
         <div className="">
-            <footer className="footer p-10 bg-[#F73E7B] text-white font-[poppins] px-28 py-20">
+            <footer className="footer p-10 bg-[#F73E7B] text-white   px-28 py-20">
   <div className='flex'>
     
    <p>H#000 (0th Floor), Road #00,<br/>New DOHS, Mohakhali, Dhaka, Bangladesh</p>
