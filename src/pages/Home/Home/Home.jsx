@@ -7,6 +7,7 @@ import Services from "../Services/Services";
 import Testimonial from "../Testimonial/Testimonial";
 import FunFact from "./FunFact/FunFact";
 import Impressed from "./Impressed/Impressed";
+import Specialized from "./SPECIALIZED/Specialized";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Banner></Banner>
         <WelcomePage/>
         <Impressed/>
+        <Specialized/>
         <Services></Services>
         <Handle></Handle>
         <Testimonial></Testimonial>
