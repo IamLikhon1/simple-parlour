@@ -27,6 +27,7 @@ const Specialized = () => {
                     <Tab className="border-x-2 cursor-pointer group">
                         <div className='px-16 py-10 group-hover:border-b-8 border-[#f9a392] group-focus:border-b-8 group-focus:border-[#f9a392] duration-500'>
                             <img className='w-12 mx-auto h-[66.34px]' src={stoneMeassage} alt="" />
+                            
                             <h2 className='uppercase mt-3 text-center font-medium group-hover:text-[#f9a392]'>Stone Massage</h2>
                         </div>
                     </Tab>
