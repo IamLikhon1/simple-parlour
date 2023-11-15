@@ -10,7 +10,7 @@ import OilImg from '../../../../assets/OilImg.png';
 import FacialImg from '../../../../assets/FacialImg.png';
 const Specialized = () => {
     return (
-        <div className='mt-16'>
+        <div className='mt-16 mx-5'>
             {/* title */}
             <div className="text-center">
                 <h2 className="text-4xl  font-semibold">WE SPECIALIZED IN</h2>
@@ -25,7 +25,7 @@ const Specialized = () => {
             <Tabs className="mt-10 w-full text-center">
                 <TabList className="flex justify-center bg-[#f5f5f5] w-fit mx-auto">
                     <Tab className="border-x-2 cursor-pointer group">
-                        <div className='px-16 py-10 group-hover:border-b-8 border-[#f9a392] group-focus:border-b-8 group-focus:border-[#f9a392] duration-500'>
+                        <div className='md:px-16 md:py-10 group-hover:border-b-8 border-[#f9a392] group-focus:border-b-8 group-focus:border-[#f9a392] duration-500'>
                             <img className='w-12 mx-auto h-[66.34px]' src={stoneMeassage} alt="" />
                             
                             <h2 className='uppercase mt-3 text-center font-medium group-hover:text-[#f9a392]'>Stone Massage</h2>
@@ -33,19 +33,19 @@ const Specialized = () => {
                     </Tab>
 
                     <Tab className="border-x-2 cursor-pointer group">
-                        <div className='px-16 py-10 group-hover:border-b-8 border-[#f9a392] group-focus:border-b-8 group-focus:border-[#f9a392] duration-500'>
+                        <div className='md:px-16 md:py-10 group-hover:border-b-8 border-[#f9a392] group-focus:border-b-8 group-focus:border-[#f9a392] duration-500'>
                             <img className='w-24 mx-auto h-[66.34px]' src={Armora} alt="" />
                             <h2 className='uppercase mt-3 text-center font-medium group-hover:text-[#f9a392]'>Armor Therapy</h2>
                         </div>
                     </Tab>
                     <Tab className="border-x-2 cursor-pointer group">
-                        <div className='px-16 py-10 group-hover:border-b-8 border-[#f9a392] group-focus:border-b-8 group-focus:border-[#f9a392] duration-500'>
+                        <div className='md:px-16 md:py-10 group-hover:border-b-8 border-[#f9a392] group-focus:border-b-8 group-focus:border-[#f9a392] duration-500'>
                             <img className='w-20 mx-auto' src={Oil} alt="" />
                             <h2 className='uppercase mt-3 text-center font-medium group-hover:text-[#f9a392]'>Oil Massage</h2>
                         </div>
                     </Tab>
                     <Tab className="border-x-2 cursor-pointer group">
-                        <div className='px-16 py-10 group-hover:border-b-8 border-[#f9a392] group-focus:border-b-8 group-focus:border-[#f9a392] duration-500'>
+                        <div className='md:px-16 md:py-10 group-hover:border-b-8 border-[#f9a392] group-focus:border-b-8 group-focus:border-[#f9a392] duration-500'>
                             <img className='w-24 mx-auto' src={Facial} alt="" />
                             <h2 className='uppercase mt-3 text-center font-medium group-hover:text-[#f9a392]'>Facial</h2>
                         </div>
@@ -64,7 +64,7 @@ const Specialized = () => {
                         {/* text */}
                         {/* img */}
                         <div>
-                            <img className='w-full h-full' src={StoneImg} alt="" />
+                            <img className='w-full h-full mt-5 md:mt-0' src={StoneImg} alt="" />
                         </div>
                         {/* img */}
 
@@ -82,7 +82,7 @@ const Specialized = () => {
                         {/* text */}
                         {/* img */}
                         <div>
-                            <img className='w-full h-full' src={ArmoraImg} alt="" />
+                            <img className='w-full h-full mt-5 md:mt-0' src={ArmoraImg} alt="" />
                         </div>
                         {/* img */}
 
@@ -100,7 +100,7 @@ const Specialized = () => {
                         {/* text */}
                         {/* img */}
                         <div>
-                            <img className='w-full h-full' src={OilImg} alt="" />
+                            <img className='w-full h-full mt-5 md:mt-0' src={OilImg} alt="" />
                         </div>
                         {/* img */}
 
@@ -118,7 +118,7 @@ const Specialized = () => {
                         {/* text */}
                         {/* img */}
                         <div>
-                            <img className='w-full h-full' src={FacialImg} alt="" />
+                            <img className='w-full h-full mt-5 md:mt-0' src={FacialImg} alt="" />
                         </div>
                         {/* img */}
 
