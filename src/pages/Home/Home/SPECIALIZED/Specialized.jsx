@@ -47,7 +47,7 @@ const Specialized = () => {
                     <Tab className="border-x-2 cursor-pointer group">
                         <div className='md:px-16 md:py-10 group-hover:border-b-8 border-[#f9a392] group-focus:border-b-8 group-focus:border-[#f9a392] duration-500'>
                             <img className='w-24 mx-auto' src={Facial} alt="" />
-                            <h2 className='uppercase mt-3 text-center font-medium group-hover:text-[#f9a392]'>Facial</h2>
+                            <h2 className='uppercase mt-12 md:mt-3 text-center font-medium group-hover:text-[#f9a392]'>Facial</h2>
                         </div>
                     </Tab>
                 </TabList>
@@ -64,7 +64,7 @@ const Specialized = () => {
                         {/* text */}
                         {/* img */}
                         <div>
-                            <img className='w-full h-full mt-5 md:mt-0' src={StoneImg} alt="" />
+                            <img className='w-full h-full mt-8 md:mt-0' src={StoneImg} alt="" />
                         </div>
                         {/* img */}
 
@@ -82,7 +82,7 @@ const Specialized = () => {
                         {/* text */}
                         {/* img */}
                         <div>
-                            <img className='w-full h-full mt-5 md:mt-0' src={ArmoraImg} alt="" />
+                            <img className='w-full h-full mt-8  md:mt-0' src={ArmoraImg} alt="" />
                         </div>
                         {/* img */}
 
@@ -100,7 +100,7 @@ const Specialized = () => {
                         {/* text */}
                         {/* img */}
                         <div>
-                            <img className='w-full h-full mt-5 md:mt-0' src={OilImg} alt="" />
+                            <img className='w-full h-full mt-8  md:mt-0' src={OilImg} alt="" />
                         </div>
                         {/* img */}
 
@@ -118,7 +118,7 @@ const Specialized = () => {
                         {/* text */}
                         {/* img */}
                         <div>
-                            <img className='w-full h-full mt-5 md:mt-0' src={FacialImg} alt="" />
+                            <img className='w-full h-full mt-8 md:mt-0' src={FacialImg} alt="" />
                         </div>
                         {/* img */}
 
