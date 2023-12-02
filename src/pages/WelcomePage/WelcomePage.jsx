@@ -9,6 +9,7 @@ const WelcomePage = () => {
         <div className="mt-16 mx-5 md:mx-0">
             {/* title */}
             <div className="text-center">
+                
                 <h2 className="text-4xl  font-semibold">WELCOME TO</h2>
                 <h4 className="text-xl mt-2  text-[#f9a392]">MASSAGE THERAPHY CENTER</h4>
                <span className='flex justify-center mb-7 mt-2'><hr className='border-gray-800 w-28' /></span>
