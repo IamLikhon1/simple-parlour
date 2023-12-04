@@ -8,7 +8,7 @@ const WelcomePage = () => {
     return (
         <div className="mt-16 mx-5 md:mx-0">
             {/* title */}
-            <div className="text-center">
+            <div className="text-center" data-aos="zoom-in" data-aos-duration="1000">
                 
                 <h2 className="text-4xl  font-semibold">WELCOME TO</h2>
                 <h4 className="text-xl mt-2  text-[#f9a392]">MASSAGE THERAPHY CENTER</h4>
@@ -36,7 +36,7 @@ const WelcomePage = () => {
                     </div>
 
                     {/* RELAX YOUR BODY */}
-                    <div className='flex gap-5 '>
+                    <div className='flex gap-5 'data-aos="zoom-in" data-aos-duration="2000">
                         {/* img */}
                         <div>
                             <img className='w-16' src={RealxImg} alt="" />
@@ -48,7 +48,7 @@ const WelcomePage = () => {
                         </div>
                     </div>
                     {/* REFRESH YOUR MIND */}
-                    <div className='flex gap-5 my-8'>
+                    <div className='flex gap-5 my-8'data-aos="zoom-in" data-aos-duration="2000">
                         {/* img */}
                         <div>
                             <img  className='w-20' src={BodyImg} alt="" />
@@ -60,7 +60,7 @@ const WelcomePage = () => {
                         </div>
                     </div>
                     {/* FREE MEDITATION */}
-                    <div className='flex gap-5 my-8'>
+                    <div className='flex gap-5 my-8'data-aos="zoom-in" data-aos-duration="2000">
                         {/* img */}
                         <div>
                             <img className='w-20' src={MedinationImg} alt="" />
@@ -72,7 +72,7 @@ const WelcomePage = () => {
                         </div>
                     </div>
                     {/* BEAUTY & WAXING */}
-                    <div className='flex gap-5 my-8'>
+                    <div className='flex gap-5 my-8'data-aos="zoom-in" data-aos-duration="2000">
                         {/* img */}
                         <div>
                             <img className='w-20' src={umbrella} alt="" />
@@ -83,11 +83,6 @@ const WelcomePage = () => {
                             <p className='mt-2 text-base text-gray-600'>Donec dignissim enim id urna fermentum, non hendrerit sem volutpat ellentesque pretium sapien nec metus.</p>
                         </div>
                     </div>
-
-
-
-
-
                 </div>
                 {/* left-Text */}
             </div>

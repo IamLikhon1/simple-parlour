@@ -12,7 +12,7 @@ const Specialized = () => {
     return (
         <div className='mt-16 mx-5'>
             {/* title */}
-            <div className="text-center">
+            <div className="text-center"data-aos="zoom-in" data-aos-duration="1000">
                 <h2 className="text-4xl  font-semibold">WE SPECIALIZED IN</h2>
                 <h4 className="text-xl mt-2  text-[#f9a392]">OUR HOT SERVICES</h4>
                 <span className='flex justify-center mb-7 mt-2'><hr className='border-gray-800 w-28' /></span>
@@ -22,7 +22,7 @@ const Specialized = () => {
                 </div>
             </div>
             {/* title */}
-            <Tabs className="mt-10 w-full text-center">
+            <Tabs className="mt-10 w-full text-center"data-aos="zoom-in" data-aos-duration="2000">
                 <TabList className="flex justify-center bg-[#f5f5f5] w-fit mx-auto">
                     <Tab className="border-x-2 cursor-pointer group">
                         <div className='md:px-16 md:py-10 group-hover:border-b-8 border-[#f9a392] group-focus:border-b-8 group-focus:border-[#f9a392] duration-500'>

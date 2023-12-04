@@ -9,7 +9,7 @@ const FunFact = () => {
     return (
         <div className="mt-16 px-2">
             {/* title */}
-            <div className="text-center">
+            <div className="text-center"data-aos="zoom-in" data-aos-duration="1000">
                 <h2 className="text-4xl font-semibold">FUN FACTS</h2>
                 <h4 className="text-xl mt-2  text-[#f9a392]">OUR STATISTICS</h4>
                <span className='flex justify-center mb-7 mt-2'><hr className='border-gray-800 w-28' /></span>
@@ -52,7 +52,7 @@ const FunFact = () => {
             {/* category */}
 
             {/* banner */}
-            <div className='mt-3 mb-10'>
+            <div className='mt-3 mb-10'data-aos="zoom-in" data-aos-duration="3000">
                 <img className='w-full h-full' src={footerImg} alt="" />
             </div>
 
